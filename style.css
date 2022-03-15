@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+body{
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.menu{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    border-radius: 8px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1)rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    animation: menuAnimado 1s forwards ; 
+  
+}
+
+@keyframes menuAnimado {
+    0%{
+        bottom: 20px;
+        opacity: 0;
+    }
+    100%{
+        bottom: 15%;
+        opacity: 1;
+    }
+}
+
+.form h2{
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);;
+}
+
+.form h2::after{
+    content: "";
+    width: 40px;
+    background: rgb(255, 255, 255);
+    display: block;
+    border-radius: 10px;
+    height: 4px;
+}
+
+.form .input-box input{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 45px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.1)rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form .input-box input::placeholder{
+    color: rgba(231, 231, 231, 0.596);
+    font-weight: 200;
+}
+
+.form .input-box .btn{
+    background: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 0.9rem;
+    max-width: 30%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form .input-box .btn:hover{
+    background-color: #f1f5f8;
+}
+
+
+.form .input-box{
+    padding: 5px 10px;
+  
+}
+
+p{
+    margin-left: 20px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(22, 188, 230);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.input2{
+    width: 400px;
+}
+
+.input2 input{
+    position: absolute;
+}
+
+
+
+#eye{
+    display: none;
+}
+
+#eye.ativo{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 320px;
+    top: 185px;
+}
+
+#esconde{
+    cursor: pointer;
+    position: absolute;
+    left: 320px;
+    top: 185px;
+}
+
+#esconde.ativou{
+    display: none;
+}

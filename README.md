@@ -1,3 +1,3 @@
-# Tela login
+# Tela de login
 
-Simples tela login com possibilidade de mostrar ou esconder senha do usúario
+Simples tela de login com possibilidade de mostrar ou esconder senha do usúario

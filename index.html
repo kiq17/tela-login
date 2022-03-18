@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <title>Tela de login</title>
+    <title>Tela de login</title>
 </head>
+
 <body>
     <div class="menu">
         <div class="form">
@@ -18,19 +20,19 @@
                 </div>
                 <div class="input-box">
                     <input type="password" placeholder="Senha" id="password">
-                    <i class="far fa-eye" onclick="toogle()" id="eye"></i>
-     
-                  <i class="far fa-eye-slash" id="esconde" onclick="toogle()"></i>
+                    <i class="far fa-eye" id="mostrar"></i>
+
+                    <i class="far fa-eye-slash" id="esconde"></i>
                 </div>
                 <div class="input-box">
                     <input class="btn" type="submit" placeholder="Entrar">
                 </div>
-                
                 <p>Esqueceu a senha? <a href="">Clique aqui</a></p>
                 <p>Ainda não possui uma conta? <a href="">Crie uma</a></p>
             </form>
-        </div>  
-    </div>  
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
+
 </html>

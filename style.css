@@ -130,25 +130,14 @@ a:hover{
 
 
 
-#eye{
+#mostrar{
     display: none;
 }
 
-#eye.ativo{
+i{
     display: block;
     cursor: pointer;
     position: absolute;
     left: 320px;
     top: 185px;
-}
-
-#esconde{
-    cursor: pointer;
-    position: absolute;
-    left: 320px;
-    top: 185px;
-}
-
-#esconde.ativou{
-    display: none;
 }
